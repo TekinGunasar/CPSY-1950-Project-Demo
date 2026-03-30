@@ -1,14 +1,14 @@
 # CPSY 1950 — Computational Models of Human Behavior: Demo Notebook
 
-This repository contains a demo notebook for CPSY 1950 at Brown University, illustrating how large language models can be evaluated as models of human decision-making using the **two-step task** — a classic paradigm from computational psychiatry.
+This repository contains a demo notebook for CPSY 1950 at Brown University, illustrating how large language models can be evaluated as models of human decision making using the **two-step task**: a classic paradigm from computational psychiatry.
 
 ## Overview
 
 The notebook covers two experiments:
 
-1. **Model Alignment with Human Decisions** — Given a real human participant's trial-by-trial transcript from the two-step task, we query a frontier LLM at each decision point and measure how surprised the model is by the human's actual choice using negative log-likelihood (NLL).
+1. **Model Alignment with Human Decisions**: Given a real human participant's trial by trial transcript from the two step task, we query a frontier LLM at each decision point and measure how surprised the model is by the human's actual choice using negative log-likelihood (NLL).
 
-2. **Model Behavior in an Open Environment** — We let the model play the two-step task autonomously against a simulated environment with drifting reward probabilities, and analyze its behavior using the classic stay/switch analysis to probe for model-based vs model-free reasoning.
+2. **Model Behavior in an Open Environment**: We let the model play the two-step task autonomously against a simulated environment with drifting reward probabilities, and analyze its behavior using the classic stay/switch analysis to probe for model based vs model free reasoning.
 
 Both experiments use the **magic carpet cover story** version of the task, in which the abstract decision structure is embedded in a fantasy narrative to test generalization.
 
