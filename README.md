@@ -33,7 +33,10 @@ OPENAI_API_KEY=your_api_key_here
 python -m ipykernel install --user --name cpsy1950
 ````
 
-6. Open the notebook and run all cells.
+6. Open the notebook by entering the following into your terminal (make sure to select cpsy1950 as your kernel):
+````
+jupyter lab
+````
 ## References
 - Binz et al. (2025). *Centaur: a foundation model of human cognition*
 - Feher da Silva et al. (2023). *Rethinking model-based and model-free influences on mental effort and striatal prediction errors.* Nature Human Behaviour, 7(6), 956–969.
